@@ -1,0 +1,167 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.container img {
+  width: 140px;
+  height: 110px;
+  margin-top: 0px;
+}
+.container p{
+  font-size: 15px;
+}
+
+.top-text {
+  display: flex;
+  margin-left: 10px;
+  margin-top: -25px;
+  gap: 80px;
+}
+.line {
+  width: 360px;
+  height: 0.3px;
+  background-color: #F9DDE7;
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+.box {
+  width: 298px;
+  height: 329px;
+  border-radius: 8px;
+  box-shadow: 2px 1px 2px 1px rgb(173, 169, 169);
+  margin-top: 10px;
+ 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 15px;
+}
+.box p {
+  margin-top: 0px;
+  font-size: 16px;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-box label {
+  text-align: start;
+  font-size: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  background-color: rgba(249, 221, 231, 0.5);
+  border: none; /* 기존 테두리 제거 */
+  box-shadow: 0 0 20px rgba(240, 202, 216, 0.7);
+  margin-left: 15px;
+}
+
+
+.form-input {
+  width: 154px;
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 2px 1px rgb(173, 169, 169);
+  border-radius: 8px;
+  border: 1px solid #F9DDE7;
+}
+
+.button {
+  font-size: 9px;
+  border-radius: 8px;
+  background-color: rgba(249, 221, 231, 0.5);
+  border: 1px solid rgba(249, 221, 231, 0.5);
+  box-shadow: 2px 1px 2px 1px rgb(173, 169, 169);
+  font-weight: bold;
+  color: #000000;
+}
+.button:active {
+  font-weight: bold;
+}
+.error-message {
+  font-size: 7px;
+  color: red;
+  margin-top: -10px;
+  margin-left: -90px;
+}
+.change-btn {
+  font-size: 10px;
+  border-radius: 8px;
+  background-color: rgba(249, 221, 231, 0.5);
+  border: 1px solid rgba(249, 221, 231, 0.5);
+  box-shadow: 2px 1px 2px 1px rgb(173, 169, 169);
+  font-weight: bold;
+  color: #000000;
+  width: 66px;
+  height: 27px;
+  margin-top: 30px;
+}
+.square-box h1 {
+  font-size: 18px;
+}
+
+.square-box p {
+  font-size: 13px;
+  margin-top: 35px;
+
+}
+.button-close{
+  margin-top: 25px;
+  width: 50px;
+  height: 26px;
+  border-radius: 8px;
+  background-color: rgba(249, 221, 231, 0.5);
+  box-shadow: 1px 2px 1px rgb(173, 169, 169);
+  text-align: center;
+  margin-left: 120px;
+  
+}
+.button-close input[type="submit"] {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.gray-rectangle {
+  width: 360px;
+  height: 645px;
+  background-color: rgba(217, 217, 217, 0.8);
+  margin: 20px auto;
+  position: absolute;
+  top: 70px;
+  left: 588px;
+  z-index: 1;
+}
+.square-box {
+  width: 298px;
+  height: 166px;
+  background-color: #ffffff; /* You can change the background color if needed */
+  margin: 200px auto;
+  border: 1px solid #F9DDE7;
+  border-radius: 8px;
+}
+.square-box h1 {
+  font-size: 18px;
+}
+
+.square-box p {
+  font-size: 18px;
+  margin-top: 35px;
+
+}
+
