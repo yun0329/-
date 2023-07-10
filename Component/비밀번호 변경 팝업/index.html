@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="index.js"></script>
+    <title>비밀번호 변경 페이지</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./밥메이트 로고 1.jpg" alt="logo">
+        <div class="top-text">
+            <p>메이트 매칭</p>
+            <p>뭐먹지?</p>
+            <p>마이페이지</p>
+        </div>
+        <div class="line"></div>
+        <div class="box">
+            <div class="gray-rectangle">
+                <div class="square-box">
+                    <h1>비밀번호 변경</h1>
+                    <p>변경하시겠습니까?</p>
+                    <div class="button-close">
+                        <input type="submit" value="닫기">
+                    </div>
+                </div>
+            </div>
+            <p>비밀번호 변경</p>
+            <div class="input-box">
+                <label for="current-password">현재 비밀번호</label>
+                <input type="password" id="current-password" name="current-password" class="form-input" required>
+                <button type='button' class="button" href="#">확인</button>
+            </div>
+            <div class="error-message">
+                일치하지 않습니다.
+            </div>
+            
+            <div class="input-box">
+                <label for="new-password">새 비밀번호 : </label>
+                <input type="new-password" id="new-password" name="new-password" class="form-input" required>
+            </div> 
+            <div class="input-box">
+                <label for="confirm-password">비밀번호 확인</label>
+                <input type="password" id="confirm-password" name="confirm-password" class="form-input" required>
+                <button type='button' class="button" href="#">확인</button>
+            </div> 
+            <div class="error-message">
+                일치하지 않습니다.
+            </div>
+            <button type='button' class="change-btn" href="#">변경하기</button>
+        </div>
+    </div>
+</body>
+</html>
