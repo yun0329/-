@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Do Hyeon', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.frame {
+  width: 360px;
+  height: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 141px;
+  height: 110px;
+}
+
+.pink-line {
+  margin-top: 145px;
+  height: 1px;
+  background-color: #F9DDE7;
+  border-radius: 8px;
+}
+
+.box {
+  width: 325.22px;
+  height: 477.6px;
+  border: 1px solid #F9DDE7;
+  border-radius: 8px;
+  padding-top: 20px;
+  position: relative;
+  margin-top: 25px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 298px;
+  height: 35px;
+  border: 1px solid #F9DDE7;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 1px rgb(173, 169, 169);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-box label {
+  width: 33%;
+  text-align: left;
+  font-size: 12px;
+}
+
+.input-box input[type="text"],
+.input-box input[type="password"],
+.input-box input[type="email"],
+.input-box select {
+  width: 67%;
+  border: none;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.button-box {
+  width: 240px;
+  height: 35px;
+  background-color: rgba(249, 221, 231, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 1px 2px 1px rgb(173, 169, 169);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px; 
+  margin-top: 30px;
+}
+
+.button-box input[type="submit"] {
+  border: none;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.check-box {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
